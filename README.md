@@ -6,11 +6,13 @@ Documents the setting up of Django dev environment
 
 The following command wil create an environment directory in miniconda3/envs:
 
-`conda create --name (_Name of the environment_) python=2.7`
+`conda create --name (__Name of the environment__) python=2.7`
 
-create a directory for the project:
+go to the directory where you want project to be created.
 
-`mkdir _dir-name_`, `cd _dir-name_`
+Run the following command to create the project:
+
+`django-admin startproject __project name__` 
 
 
  

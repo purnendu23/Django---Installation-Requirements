@@ -17,3 +17,9 @@ Run the following command to create the project:
 You will noe see the following two when you run `ls` -- 
 **<_project name_>** and **manage.py**
 
+Inside **<_project name_>** you wil see the following:
+
+__init__.py
+settings.py
+urls.py
+wsgi.py

@@ -30,3 +30,7 @@ wsgi.py
 Run the folowing command to setup databases: 
 
 `python manage.py migrate`
+
+You will now also see **db.sqlite3** :
+
+**<_project name_>**  **db.sqlite3**  **manage.py**

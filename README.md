@@ -26,3 +26,7 @@ settings.py
 urls.py
 
 wsgi.py
+
+Run the folowing command to setup databases: 
+
+`python manage.py migrate`

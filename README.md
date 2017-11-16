@@ -14,6 +14,6 @@ Run the following command to create the project:
 
 `django-admin startproject` <_project name_> 
 
-You will noe see the following two when you run `ls`
+You will noe see the following two when you run `ls` -- 
 **<_project name_>** and **manage.py**
 

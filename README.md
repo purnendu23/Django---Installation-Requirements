@@ -31,6 +31,12 @@ Run the folowing command to setup databases:
 
 `python manage.py migrate`
 
-You will now also see **db.sqlite3** :
+Now, you will now see a database there:
 
 **<_project name_>**  **db.sqlite3**  **manage.py**
+
+Finally,
+
+### Run the server
+
+`python manage.py runserver`

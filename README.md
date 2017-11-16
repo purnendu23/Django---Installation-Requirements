@@ -20,6 +20,9 @@ You will noe see the following two when you run `ls` --
 Inside **<_project name_>** you wil see the following:
 
 __init__.py
+
 settings.py
+
 urls.py
+
 wsgi.py

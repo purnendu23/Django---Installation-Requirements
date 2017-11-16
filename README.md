@@ -8,5 +8,9 @@ The following command wil create an environment directory in miniconda3/envs:
 
 `conda create --name (_Name of the environment_) python=2.7`
 
+create a directory for the project:
+
+`mkdir _dir-name_`, `cd _dir-name_`
+
 
  

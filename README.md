@@ -43,3 +43,7 @@ Finally,
 ### Run the server
 
 `python manage.py runserver`. Test it by going to http://127.0.0.1:8000/
+
+### Create a new app
+
+`python manage.py startapp browseCatalog`

@@ -65,3 +65,12 @@ The sqlmigrate command doesn’t actually create the tables or otherwise touch y
 ###  committing the SQL to the database
 
 `python manage.py migrate`
+
+
+### Object initialization and saving it
+```
+p1 = Publisher(...)
+# At this point, p1 is not saved to the database yet!
+p1.save()
+# Now it is.
+```

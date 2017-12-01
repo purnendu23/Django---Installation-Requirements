@@ -50,3 +50,7 @@ Finally,
 
 ### validate the models
 `python manage.py check`
+
+### Tell django that changes have been made to the model
+
+`python manage.py makemigrations browseCatalog`

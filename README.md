@@ -49,8 +49,19 @@ Finally,
 `python manage.py startapp browseCatalog`
 
 ### validate the models
+
 `python manage.py check`
 
 ### Tell django that changes have been made to the model
 
 `python manage.py makemigrations browseCatalog`
+
+### The sqlmigrate command takes migration names and returns their SQL
+
+`python manage.py sqlmigrate browseCatalog 0001`
+
+The sqlmigrate command doesn’t actually create the tables or otherwise touch your database – it just prints output to the screen so you can see what SQL Django would execute if you asked it.
+
+###  committing the SQL to the database
+
+`python manage.py migrate`

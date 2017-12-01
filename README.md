@@ -74,3 +74,5 @@ p1 = Publisher(...)
 p1.save()
 # Now it is.
 ```
+
+If you want to create an object and save it to the database in a single step, use the objects.create() method.

@@ -47,3 +47,6 @@ Finally,
 ### Create a new app
 
 `python manage.py startapp browseCatalog`
+
+### validate the models
+`python manage.py check`

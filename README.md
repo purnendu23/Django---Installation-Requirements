@@ -81,11 +81,11 @@ If you want to create an object and save it to the database in a single step, us
 
 
 The DoesNotExist exception is an attribute of the model’s class – Publisher.DoesNotExist. In your applications, you’ll want to trap these exceptions, like this:
-
+```
 try:
     p = Publisher.objects.get(name='Apress')
 except Publisher.DoesNotExist:
     print ("Apress isn't in the database yet.")
 else:
     print ("Apress is in the database.")
-
+```

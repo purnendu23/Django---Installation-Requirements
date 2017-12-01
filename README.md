@@ -89,3 +89,10 @@ except Publisher.DoesNotExist:
 else:
     print ("Apress is in the database.")
 ```
+
+
+
+
+### Creating super users:
+
+`python manage.py createsuperuser`
